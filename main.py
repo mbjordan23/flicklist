@@ -64,7 +64,7 @@ def crossoff_movie():
     
     crossed_off_movie = request.form['crossed-off-movie'] 
 
-    content = "<strike>" + crossed_off_movie + "</strike>" + "has been crossed off your Watchlist."   
+    content = "<strike>" + crossed_off_movie + "</strike>" + " has been crossed off your Watchlist."   
 
     return content
 
